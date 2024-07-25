@@ -1,0 +1,210 @@
+.hero-section-inside{
+    width:100%;
+    height:500vh ; 
+    background:green ; 
+    position:absolute; 
+  
+    
+
+}
+
+
+.hero-animation-div{
+    position:relative;
+    height:400px ;
+    width:100%; 
+
+}
+
+.animation-div-one{
+    position:absolute;
+    width:60px ;
+    height:60px ;
+    border:1px solid black ; 
+    transform:rotate(25deg) ; 
+    border:1px solid black ; 
+    bottom:0; 
+    left:90px ;
+    animation-name:a1;
+    animation-duration:10s;
+    animation-delay:ease;
+    animation-iteration-count:infinite ; 
+    animation-direction:revarse; 
+   
+
+}
+
+
+@keyframes a1{
+    30%{
+   background:blue; 
+   top:10px; 
+    }
+    60%{
+    background:red; 
+    top:50px ; 
+    }
+    70%{
+        top:60px ; 
+    }
+    80%{
+        top:80px; 
+        background:white; 
+    }
+    100%{
+   bottom:70px; 
+   background:white; 
+    }
+}
+
+
+.animation-div-two{
+    position:absolute;
+    width:60px ;
+    height:60px ;
+    border:1px solid black ; 
+    transform:rotate(25deg) ; 
+  
+    bottom:0;
+    left:350px ; 
+    animation-name:a2;
+    animation-duration:10s;
+    animation-delay:ease-in;
+    animation-iteration-count:infinite;
+    animation-direction:alternative; 
+
+  
+}
+
+@keyframes a2{
+    10%{
+        top:90%;
+
+    }
+    20%{
+        top:80%;
+
+    }
+    30%{
+        top:70%; 
+    }
+    40%{
+        top:60%; 
+    }
+    50%{
+        top:50%; 
+    }
+    60%{
+        top:40%;
+
+    }
+    70%{
+        top:30%; 
+    }
+    80%{
+        top:20%; 
+    }
+    90%{
+        top:10%; 
+    }
+    100%{
+        top:0; 
+    }
+
+}
+
+
+.animation-div-three{
+    position:absolute;
+    width:60px ;
+    height:60px ;
+    border:1px solid black ; 
+    border-radius:50%;
+    background:white ;
+    opacity:0.5; 
+  
+    bottom:0;
+    left:530px ; 
+    animation-name:a3;
+    animation-duration:10s;
+    animation-delay:ease-in;
+    animation-iteration-count:infinite;
+    animation-direction:alternative; 
+}
+@keyframes a3{
+    10%{
+        top:90%;
+        opacity:0.10;
+
+
+    }
+    20%{
+        top:80%;
+
+    }
+    30%{
+        top:70%; 
+    }
+    40%{
+        top:60%; 
+    }
+    50%{
+        top:50%; 
+    }
+    60%{
+        top:40%;
+
+    }
+    70%{
+        top:30%; 
+    }
+    80%{
+        top:20%; 
+    }
+    90%{
+        top:10%; 
+    }
+    100%{
+        top:0; 
+    }
+
+}
+
+.animation-div-four{
+    position:absolute;
+    width:60px ;
+    height:60px ;
+    border:1px solid black ; 
+    transform:rotate(25deg) ; 
+
+    bottom:0;
+    left:870px ; 
+}
+.animation-div-five{
+    position:absolute;
+    width:60px ;
+    height:60px ;
+    border:1px solid black ; 
+    transform:rotate(25deg) ; 
+
+    bottom:0;
+    left:1120px ; 
+    
+
+}
+
+.hero-text{
+    text-align:center ; 
+
+}
+
+button{
+    background:blue;
+ 
+    outside:none;
+    border :none;
+    border-collapse:collapse; 
+    color:white; 
+    padding:3px ; 
+    border-radius:5px ; 
+}
